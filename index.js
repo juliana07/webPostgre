@@ -8,6 +8,7 @@ const {createCustomer,
 } = require('./src/controllers/customer.controller')
 
 const app = express();
+const port = process.eventNames.PORT || 3001;
 
 //Middleware
 app.use(express.json())
